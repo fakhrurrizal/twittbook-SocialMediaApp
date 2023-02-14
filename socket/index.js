@@ -1,6 +1,6 @@
 const io = require("socket.io")(process.env.port, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://twittbook.vercel.app/",
     },
   });
   

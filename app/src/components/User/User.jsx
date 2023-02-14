@@ -16,7 +16,6 @@ const User = ({person}) => {
 
     setFollowing((prev)=>!prev)
   }
-  console.log("data user==>", person);
 
   return (
     <div className="follower">
