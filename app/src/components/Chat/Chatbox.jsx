@@ -135,6 +135,7 @@ const Chatbox = ({ chat, currentUser,setSendMessage, receiveMessage }) => {
            <InputEmoji 
                value = { newMessage }
                onChange = {handleChange}
+               required
            />
            <div className="send-button button" onClick={handleSend}>Send</div>
          </div>
