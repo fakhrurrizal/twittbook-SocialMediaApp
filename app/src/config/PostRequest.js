@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: process.env.CONFIG })
+const API = axios.create({ baseURL: "https://twittbook-socialmediaapp.up.railway.app" })
 
 API.interceptors.request.use((req) => {
     if (localStorage.getItem('profile')) {
